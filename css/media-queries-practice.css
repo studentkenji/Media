@@ -5,3 +5,85 @@ Author: Your Name Here
 
 ----------------------------------------- */
 
+
+
+@media screen and (min-width:1025px) {
+    body {
+      background-color: rgb(147, 226, 151);
+    }
+  .box1 { 
+    background: pink; 
+    width: 100%;}
+  .box2 { 
+    background: purple; 
+    width: 33.3%;}
+  .box3 {
+    background: blue; 
+    width: 33.3%;}
+  .box4 { 
+    background: hotpink; 
+    width: 33.3%;}
+  .box5 { 
+    background: greenyellow; 
+    width: 50%;}
+  .box6 { 
+    background: orange; 
+    width: 50%;}
+  .box7 { 
+    background: lightcoral; 
+    width: 25%;}
+  .box8 { 
+    background: darksalmon; 
+    width: 25%;}
+  .box9 { 
+    background: lightgreen; 
+    width: 25%;}
+  .box10 { 
+    background:cyan; 
+    width: 25%;}
+  }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:10px solid rgb(180, 36, 57);
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width:905px) {
+    body {
+      background-color: rgb(147, 148, 226);
+    }
+  .box1 { 
+    background: pink; 
+    width: 100%;}
+  .box2 { 
+    background: purple; 
+    width: 33.3%;}
+  .box3 {
+    background: blue; 
+    width: 33.3%;}
+  .box4 { 
+    background: hotpink; 
+    width: 33.3%;}
+  .box5 { 
+    background: greenyellow; 
+    width: 50%;}
+  .box6 { 
+    background: orange; 
+    width: 50%;}
+  .box7 { 
+    background: lightcoral; 
+    width: 25%;}
+  .box8 { 
+    background: darksalmon; 
+    width: 25%;}
+  .box9 { 
+    background: lightgreen; 
+    width: 25%;}
+  .box10 { 
+    background:cyan; 
+    width: 25%;}
+  }
